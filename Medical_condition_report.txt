@@ -1,0 +1,52 @@
+Complete Process :- 
+
+1. In a first step, I have cleaned the data and replaced characters with suitable strings.
+2. Added the necessary columns such as health status on the basis of BMI score and age range on the   
+   basis of age criteria of patients.
+3. Created a pivot table and designed a dashboard on basis of which key insights generated are 
+   mentioned below with recommendations.
+
+
+
+
+bmi		health_status
+0-18.5		Underweight
+18.5-24.9	Heavyweight
+25.0-29.9	Overweight
+30-34.9		Class 1 Obesity
+35.0-39.9	Class 2 Obesity
+40.0 >          Class 3 Obesity
+
+
+age	age	age_range
+0-16	0	child
+17-30	17	young
+31-45	31	middle age
+45>	45	old age
+
+Recommendations and Key Insights :- 
+
+1.705 out of 1338 have BMI above 30 
+
+2.Charges for middle age group is higher in northeast region as compared to other age groups who 
+  are having high charges in Southeast region.
+3.Avg charges for young age group and old age group is  maximum in Southeast region but for medium 
+  age group it is maximum in northeast region
+  
+4.male having Class 3 Obesity are charged more i.e 23552.50 in Northwest region.
+
+5.Female who are underweight gets charged higher in Northwest region.
+
+6.Most of the smoking population are found in Southeast region , i.e 91 and health drives related to smoking and fat control drives must be enforced here.
+
+7.Average charges for Smoking population is 4 times to the Non smoking populations.so Govt can drive several programs in this area as compared to other areas.
+
+8.Avg charges across Southeast region is higher i.e. 14735.4 and for Class 3 obesity Southeast region is expensive
+
+9.More than 50% population comes in Overweight and Class 1 Obesity conditions
+
+10.As Class Obesity conditions are more present in Old age group , so Government can target this age group and can provide medical subsidies for better treatment. 
+
+11.Middle age range ppl suffering from Overweight and Class 1 Obesity condition , here Govt can warn and give examples of Old age group suffering from Obesity condition if no treated with time.
+
+12.For smokers, the avg charges is distributed fairly and for smoking people with Class 3 Obesity  charges are more as compared to others.
