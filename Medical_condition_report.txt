@@ -1,3 +1,21 @@
+Context:
+A public health department is seeking to better understand healthcare cost drivers and obesity-related health risks across different demographic segments in the population. They have access to anonymized patient-level health data including BMI, age, gender, region, smoking status, and medical charges.
+
+Business Problem:
+Healthcare costs are rising significantly, especially in regions with higher rates of obesity and smoking. The government currently lacks targeted insights into how various factors—such as age, BMI, gender, smoking habits, and region—impact health expenditures. This limits their ability to create efficient intervention programs and allocate medical subsidies effectively.
+
+Objective:
+To conduct an in-depth data analysis to:
+
+Segment the population based on BMI into health status categories (e.g., Underweight, Overweight, Class 3 Obesity).
+
+Categorize age ranges (Child, Young, Middle Age, Old Age) to understand age-specific healthcare needs.
+
+Analyze how charges vary by health status, region, age group, gender, and smoking behavior.
+
+Identify high-risk and high-cost segments for targeted health policies and intervention.
+
+
 Complete Process :- 
 
 1. In a first step, I have cleaned the data and replaced characters with suitable strings.
@@ -50,3 +68,17 @@ Recommendations and Key Insights :-
 11.Middle age range ppl suffering from Overweight and Class 1 Obesity condition , here Govt can warn and give examples of Old age group suffering from Obesity condition if no treated with time.
 
 12.For smokers, the avg charges is distributed fairly and for smoking people with Class 3 Obesity  charges are more as compared to others.
+
+Recommendations:
+
+1.Implement region-specific health campaigns, especially in Southeast and Northwest.
+
+2.Introduce preventive healthcare subsidies for middle-aged and old-age groups to manage obesity early.
+
+3.Launch anti-smoking and fat control programs in Southeast where smoking prevalence is highest.
+
+4.Use insights to inform insurance premium adjustments, public health education, and resource allocation.
+
+Impact:
+
+This analysis enables government health agencies to reduce long-term treatment costs, design preventive health policies, and allocate funds effectively based on data-backed risk profiling across demographic and geographic segments.
